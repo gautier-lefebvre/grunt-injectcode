@@ -1,0 +1,28 @@
+{
+  "name": "grunt-injectcode",
+  "version": "0.1.0",
+  "description": "Grunt code injector",
+  "main": "tasks/injectcode.js",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir tasks"
+  },
+  "keywords": [
+    "grunt",
+    "injector",
+    "code"
+  ],
+  "author": "Gautier Lefebvre <gautier.lfbvr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "jest": "^20.0.3"
+  },
+  "dependencies": {
+    "inject-code": "^1.0.0"
+  }
+}
