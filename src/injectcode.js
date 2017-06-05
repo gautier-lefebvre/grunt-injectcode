@@ -21,7 +21,8 @@ module.exports = (grunt) => {
         between: {
           starttag: options.starttag,
           endtag: options.endtag
-        }
+        },
+        sync: true
       });
     });
   });
